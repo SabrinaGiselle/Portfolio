@@ -666,8 +666,42 @@ font-size:1.5rem;
 font-weight:600;
 }
 
+@media (max-width:768px){
 
+.menu{
 
+    position:fixed;
+
+    top:10px;
+
+    left:50%;
+    transform:translateX(-50%);
+
+    width:95%;
+
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:8px;
+
+    padding:10px;
+
+    z-index:999;
+}
+
+.menu a{
+
+    font-size:.8rem;
+
+    padding:8px 12px;
+
+    white-space:nowrap;
+}
+
+}
+/*
 @media (max-width:768px){
 
 .menu{
@@ -715,7 +749,7 @@ font-weight:600;
     padding:10px 14px;
 }
 
-}
+}*/
 
 
 /*
